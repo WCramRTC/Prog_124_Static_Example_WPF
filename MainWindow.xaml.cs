@@ -23,12 +23,15 @@ namespace Prog_124_Static_Example_WPF
         public MainWindow()
         {
             InitializeComponent();
+            // Attach a collection to the listbox ItemsSource
             lbPlayers.ItemsSource = DataClass._players;
         }
 
   
         private void btnAddPlayer_Click(object sender, RoutedEventArgs e)
         {
+            // To open up a new winform or window
+
             new AddPlayerWindow().Show();
         } // btnAddPlayer_Click
 

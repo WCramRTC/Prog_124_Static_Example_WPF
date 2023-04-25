@@ -23,6 +23,10 @@ namespace Prog_124_Static_Example_WPF
         {
             InitializeComponent();
             lvPlayers.ItemsSource = DataClass._players;
+
+
+            // Attaching a list to an itemssourc
+            lvPlayers_Copy.ItemsSource = DataClass._players;
         } // AddPlayerWindow()
 
         private void btnAddPlayer_Click(object sender, RoutedEventArgs e)

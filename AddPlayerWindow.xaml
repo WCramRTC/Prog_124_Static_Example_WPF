@@ -12,7 +12,7 @@
         <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="155,151,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
         <TextBox x:Name="txtHp" HorizontalAlignment="Left" Margin="155,203,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
         <Button x:Name="btnAddPlayer" Content="Add Player" HorizontalAlignment="Left" Margin="168,257,0,0" VerticalAlignment="Top" Width="112" Click="btnAddPlayer_Click"/>
-        <ListView x:Name="lvPlayers" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="362,19,30,29">
+        <ListView x:Name="lvPlayers" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="362,19,51,29">
             <ListView.View>
                 <GridView>
                     <GridViewColumn Header="Name" DisplayMemberBinding="{Binding Name}"/>

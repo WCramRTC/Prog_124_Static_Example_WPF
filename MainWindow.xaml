@@ -6,11 +6,16 @@
         xmlns:local="clr-namespace:Prog_124_Static_Example_WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
+    
     <Canvas Background="#FFB3D4FF">
         <ListBox x:Name="lbPlayers" Height="356" Width="385" d:ItemsSource="{d:SampleData ItemCount=5}" Canvas.Left="373" Canvas.Top="21"/>
+        
         <Button x:Name="btnAddPlayer" Content="Add Player" Canvas.Left="674" Canvas.Top="382" HorizontalAlignment="Center" VerticalAlignment="Center" Width="84" Height="35" Click="btnAddPlayer_Click" />
+        
         <Label Content="Update HP" Canvas.Left="32" Canvas.Top="217" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+        
         <TextBox x:Name="txtUpdateHp" Canvas.Left="104" TextWrapping="Wrap" Text="TextBox" Canvas.Top="221" Width="140" HorizontalAlignment="Left" VerticalAlignment="Top"/>
+        
         <Button x:Name="btnUpdate" Content="Update" Canvas.Left="259" Canvas.Top="219" HorizontalAlignment="Center" VerticalAlignment="Top" Width="69" Click="btnUpdate_Click" />
 
     </Canvas>
